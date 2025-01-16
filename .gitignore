@@ -1,3 +1,35 @@
+credentials.h
+
+# Ignore build folder
+/build
+
+# Ignore docs build (Sphinx)
+docs/build
+docs/source/_build
+__pycache__/
+_build/
+
+# Test log files
+*.log
+debug.cfg
+debug.svd
+debug_custom.json
+libraries/Insights/examples/*/*.ino.zip
+
+# Ignore Lib Builder Docker run scripts
+/run.sh
+/run.ps1
+
+# Ignore files built by Visual Studio/Visual Micro
+[Dd]ebug/
+[Rr]elease/
+.vs/
+__vm/
+*.vcxproj*
+.vscode/
+platform.sloeber.txt
+boards.sloeber.txt
+
 # Prerequisites
 *.d
 
